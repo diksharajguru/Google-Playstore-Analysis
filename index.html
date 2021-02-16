@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Google Play Store</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="Images/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container ">
+                
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dataset">Dataset</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schema">Schema</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dashboard">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Google Play Store Regression Model.html" target="_blank">Regression Model</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="Sentiment_Analysis_part.html" target="_blank">Sentiment Analysis</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
+        <!-- Head-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold">GOOGLE PLAY STORE</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Buisness Intelligence And Data Analytics <br> Mini Project</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+		
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center"> 
+                        <h2 class="text-white mt-0">AIM</h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-white-50 mb-4">The aim of our analysis is to provide insights about android applications and their categories. We want to deep dive in data for the factors of influences on an application, to know why and how certain applications succeed and others. Also, what is required for an application to be considered as successfully topping the charts.</p>
+						<br>
+					</div>
+                </div>
+            </div>
+			<div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0 ">OBJECTIVES</h2>
+                        <hr class="divider light my-4" />
+                        <ul class="text-white-50 mb-4 text-center">
+							<li style="list-style-position: inside">Visualization of Inferences for better understanding</li>
+							<li style="list-style-position: inside">Pre-processing of Dataset (Data Cleaning, Data Transformation) </li>
+							<li style="list-style-position: inside">To construct a Forecasting Model to predict the Global Android app market</li>
+							<li style="list-style-position: inside">To provide insights on app features and the current state of the Android app market</li>
+							<li style="list-style-position: inside">To gather and analyze detailed information on apps in the Google Play Store</li>
+							<li style="list-style-position: inside">To perform sentiment analysis on app store data</li>
+						</ul>
+					</div>
+                </div>
+            </div>
+        </section>
+		
+        <!-- Dataset-->
+        <section class="page-section" id="dataset">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-center mt-0">DATASET</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-center mb-4">The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market. The 2 datasets are chosen from Kaggle.i.e, googleplaystore.csv and googleplaystore_user_reviews.csv. googleplaystore.csv is the web scraped data of 10k Play Store apps for analyzing the Android market. It consists of in total of 10841 rows and 13 columns. The columns of the dataset are as follows:</p>
+						<table style="width:60%" align="center" class="text-muted mb-5" >
+							<tr>
+								<td>1. App</td>
+								<td>2. Category</td>
+							</tr>
+							<tr>
+								<td>3. Rating</td>
+								<td>4. Reviews</td>
+							</tr>
+							<tr>
+								<td>5. Size</td>
+								<td>6. Installs</td>
+							</tr>
+							<tr>
+								<td>7. Type</td>
+								<td>8. Price</td>
+							</tr>
+							<tr>
+								<td>9. Content Rating</td>
+								<td>10. Genres</td>
+							</tr>
+							<tr>
+								<td>11. Last Updated</td>
+								<td>12. Current Version</td>
+							</tr>
+							<tr>
+								<td colspan="2">13. Android Version</td>
+							</tr>
+						</table>
+						<p class="text-center mb-4">googleplaystore_user_reviews.csv this dataset consists of around 65k rows and 5 columns. The columns in googleplaystore_user_reviews.csv. are as follows :</p>
+						<table style="width:60%" align="center"  class="text-muted mb-5" >
+							<tr>
+								<td>1. App</td>
+								<td>2. Translated review</td>
+							</tr>
+							<tr>
+								<td>3. Sentiment polarity</td>
+								<td>4. Sentiment</td>
+							</tr>
+							<tr>
+								<td colspan="2">5. Sentiment Subjectivity</td>
+							</tr>
+						</table>
+						<a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9WmRVLhOFVJN2ZKHlz2BjAgQxHg8mWJOYj-Q2OysYBaqVJ3fAG1tmFUDXORtf4nAbSACyNGH6qTu/pubhtml?gid=1703275824&single=true" target="_blank">VIEW DATASETs</a>
+					</div>
+                </div>
+            </div>
+        </section>
+		
+		<!-- Schema-->
+        <section class="page-section bg-dark text-white" id="schema">
+            <div class="container text-center">
+                <h2 class="text-center mt-0">Schema Design</h2>
+                <hr class="divider my-4" />
+                <img  src="Images/img/schema.png" alt="" />             
+            </div>
+        </section>
+		
+		<!-- Dashboard -->
+		<section class="page-section" id="dashboard">
+            <div class="container text-center">
+                <h2 class="text-center mt-0">Dashboard</h2>
+                <hr class="divider my-4" />
+                <div class='tableauPlaceholder' id='viz1605865284632' style='position: center'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pb&#47;pbl&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='pbl&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pb&#47;pbl&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605865284632');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>             
+				<br>
+				<a class="btn btn-primary btn-xl js-scroll-trigger" href="Dashboard.html" target="blank">More On Dashboard</a>
+			</div>
+        </section>
+		
+		<!-- Conclusion -->
+        <section class="page-section bg-primary">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">CONCLUSION</h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-white-50 text-muted mb-4">The dataset contains immense possibilities to improve business values and have a positive impact. Though we have constructed schema design, dashboard for easy visual representation, created a model to predict the rating of apps and performed sentiment analysis , it is not limited to the problem taken into consideration for this project. Many other interesting possibilities can be explored using this dataset.</p>
+					</div>
+                </div>
+            </div>
+		</section>
+		
+        <!-- Info-->
+        <section class="page-section" >
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Submitted By</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-muted mb-5">
+							<table style="width:40%" align="center" class="text-muted mb-5" >
+								<tr>
+									<th>Name</th>
+									<th>Gr No.</th>
+								</tr>
+								<tr>
+									<td>Omkar Pansare</td>
+									<td>21810383</td>
+								</tr>
+								<tr>
+									<td>Tushar Patil</td>
+									<td>21810345</td>
+								</tr>
+								<tr>
+									<td>Diksha Rajguru</td>
+									<td>21810478</td>
+								</tr>
+								<tr>
+									<td>Vaishnavi Shinde</td>
+									<td>21810771</td>
+								</tr>
+							</table>
+						</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-dark py-5">
+            <div class="container"><div class="small text-center text-muted">BI & DA  Mini  Project</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
